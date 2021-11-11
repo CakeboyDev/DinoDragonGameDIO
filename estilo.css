@@ -1,0 +1,61 @@
+body{
+margin: 0;
+background-size: 100vw 160vh;
+background-repeat: no-repeat;
+}
+.dino{
+transform: scale(0.5,0.6);
+
+background-image: url('goku.gif');
+width: 17vw;
+height: 30.3vh;
+position: absolute;
+bottom: 5vh;
+}
+
+.obs{
+position: absolute;
+left: 78vw;
+background-image: url('vegeta.gif');
+transform: scale(-1.55,1.2);
+width: 17vw;
+height: 32vh;
+}
+
+@keyframes deslizazz{
+  from{
+    background-position: 70000%;
+}
+  to{
+    background-position: 0;
+}}
+
+
+.background{
+background: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.6)), url('desert.png');;
+position: absolute;
+width: 100vw;
+height: 100vh;
+background-size: contain;
+background-repeat: repeat-x;
+animation: deslizazz 600s infinite linear;
+}
+
+
+.end-game{
+font-size: 3vw;
+color: white;
+text-align: center;
+}
+
+.endgame{
+font-style: arial;
+margin-top: 65vh;
+}
+.placar{
+color: white;
+position: absolute;
+left: 3vw;
+bottom: 83vh;
+font-size: 3vw;
+}
